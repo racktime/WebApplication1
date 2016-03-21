@@ -98,6 +98,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="assets\css\font\fontawesome-webfont.svg" />
+    <Content Include="assets\css\index.css" />
+    <Content Include="assets\js\jquery-1.11.0.min.js" />
+    <Content Include="assets\js\jquery-ui-1.10.4.min.js" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -108,6 +112,11 @@
     <Content Include="typings.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="assets\css\font\fontawesome-webfont.eot" />
+    <Content Include="assets\css\font\fontawesome-webfont.ttf" />
+    <Content Include="assets\css\font\fontawesome-webfont.woff" />
+    <Content Include="assets\css\font\NanumGothic.eot" />
+    <Content Include="assets\css\font\NanumGothic.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -132,6 +141,7 @@
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
